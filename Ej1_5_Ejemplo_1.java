@@ -1,4 +1,4 @@
-public class Ejemplo1_Ejemplo_1_5 {
+public class Ej1_5_Ejemplo_1 {
     public void methodD() throws Exception { //la clave es throws para avisar que puede no funcionar
         boolean fallo = true;
         if (fallo) {
