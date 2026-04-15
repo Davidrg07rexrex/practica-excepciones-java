@@ -1,0 +1,6 @@
+/*Bueno, pues con el Gson esto de los arrays funciona bastante fácil. Si quieres guardar un array suelto, sin más, lo convierte directamente en una lista de elementos entre corchetes, tal cual esperas de un JSON. Por ejemplo, si tienes un array de strings, te escribe algo como ["Hola", "Mundo"]. Para recuperarlo luego solo hay que decirle de qué tipo era el array (por ejemplo String[].class) y te lo reconstruye con todos sus elementos otra vez.
+
+La cosa se pone un poco más interesante cuando el array está dentro de un objeto, como un profesor que tiene una lista de alumnos. En ese caso Gson se comporta de forma recursiva y no tienes que hacer nada especial. El JSON que genera incluye un campo que se llama igual que el atributo de la clase (digamos "alumnos") y dentro de ese campo aparece un array con los objetos de los alumnos, cada uno con sus propios datos. Cuando vuelves a leer el archivo, reconstruye el profesor y también el array de alumnos sin problema ninguno. Vamos, que lo maneja solo y el archivo queda bastante legible.
+
+Lo único que me llamó la atención es que si miras el JSON resultante, ves claramente la estructura del objeto con el array dentro, lo cual está muy bien para depurar o incluso para modificar los datos a mano si hiciera falta.
+ */
