@@ -1,5 +1,11 @@
 public class Tester {
     public static void main(String[] args) {
+
+        //Ejecutamos los primeros 4 ejemplos de la a
+        Ejemplo1_1.main(args);
+        Ejemplo1_2.main(args);
+        Ejemplo1_3.main(args);
+        Ejemplo1_4.main(args);
         System.out.println("probando 1.5 ejemplo 1");
         Ej1_5_Ejemplo_1 ej1 = new Ej1_5_Ejemplo_1();
         ej1.methodC(); //esto atrapa el error por dentro
@@ -46,4 +52,5 @@ public class Tester {
             System.out.println("magia pillada");
         }
     }
+
 }
