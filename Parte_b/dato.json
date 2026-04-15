@@ -1,0 +1,9 @@
+{
+  "nombre": "Alejandro",
+  "apellidos": "Chamorro Davidovitch",
+  "edad": 18,
+  "dni": "00000000A",
+  "correo": "prueba@gmail.com",
+  "curso": "1MyC",
+  "notaMedia": 3.5
+}
